@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-itunes-app" content="app-id=1475079148" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Student Portal - Homework</title>
+
+    
+        <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css" />
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="/lib/fontaswesome/font-awesome.min.css" />
+    <link href="/lib/blankon/css/timeline-type-2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/core.min.css" />
+    <link rel="stylesheet" href="/css/plugins.min.css" />
+    <link id="theme" rel="stylesheet" href='/lib/blankon/css/themes/blue.theme.css' />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<script type="text/javascript">!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{
+src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+crossOrigin: "anonymous", 
+cfg: { // Application Insights Configuration
+    connectionString: 'InstrumentationKey=9220e510-9e20-4575-8bd2-9411505e2dc7;IngestionEndpoint=https://uksouth-1.in.applicationinsights.azure.com/;LiveEndpoint=https://uksouth.livediagnostics.monitor.azure.com/'
+}});</script></head>
+<body class="page-header-fixed page-sidebar-fixed page-footer-fixed page-headerContent-fixed">
+
+    <!-- START WRAPPER -->
+    <section id="wrapper">
+        <div class="wait" style="display: none;">
+            <img id="loading" src="/images/loadingIcon1.gif" width="350" height="300" alt="please wait......" />
+        </div>
+        
+
+<header id="header">
+    <div class="header-left">
+        <div class="navbar-minimize-mobile left">
+            <i class="fa fa-bars"></i>
+        </div>
+
+        <!-- Top Bar-1: Logo -->
+        <div class="navbar-header">
+            <!-- Start brand -->
+            <a class="navbar-brand" href="javascript:;">
+                <img class="logo" src="/images/StudentPortalLogo.png" alt="StudentPortal">
+            </a>
+        </div>
+
+        <div class="navbar-minimize-mobile right">
+            <i class="fa fa-cog"></i>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="header-right">
+            <div class="navbar navbar-toolbar navbar-bluelight">
+                <ul class="nav navbar-nav navbar-left">
+
+                    <!-- Top Bar-2: Minimize Left Side Menu -->
+                    <li class="navbar-minimize">
+                        <a href="javascript:void(0);" title="Minimize sidebar">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+
+                    <!-- Top Bar-3: School Name -->
+                    <li class="navbar-search" style="padding-top:3px">
+                        <span class="avatar">
+                            <img src="/AccountSettings/GetSchoolPhoto" class="img-circle img-school" alt="User Logo">
+                        </span>
+                        <a href="javascript:void(0);" class="schoolNameHeader" id="SchoolNameLabel" title="School Name">Comberton Village College</a>
+                    </li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- Top Bar-4: Contact School -->
+                    <li class="dropdown navbar-message">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Contact School">
+                            <i class="fa fa-phone"></i>
+                        </a>
+
+                        <div class="dropdown-menu animated flipInX" style="min-height: 200px;">
+                            <table class="table table-theme" style="color: #000;">
+                                <thead>
+                                    <tr>
+                                        <th colspan="3" class="text-center success" style="height: 37px;">School Contact Information</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center"><i class="fa fa-home fa-3" aria-hidden="true"></i></td>
+                                        <td>Address:</td>
+                                        <td><span class="text" id="AddressLabel" />West Street, Cambridge, Comberton, CB23 7DU</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><i class="fa fa-phone fa-3" aria-hidden="true"></i></td>
+                                        <td>Phone:</td>
+                                        <td><span class="text" id="PhoneLabel" />01223262503</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><i class="fa fa-fax fa-3" aria-hidden="true"></i></td>
+                                        <td>Fax:</td>
+                                        <td><span class="text" id="FaxLabel" />01223264116</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><i class="fa fa-envelope-o fa-3" aria-hidden="true"></i></td>
+                                        <td>Email:</td>
+                                        <td><a id="EmailLabelLink" target="_blank"><span class="text" id="EmailLabel" />thecollege@combertonvc.org</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><i class="fa fa-globe fa-3" aria-hidden="true"></i></td>
+                                        <td>Website:</td>
+                                        <td><a id="WebsiteLabelLink" target="_blank"><span class="text" id="WebsiteLabel" />https://www.combertonvc.org/</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center"><i class="fa fa-user fa-3" aria-hidden="true"></i></td>
+                                        <td><span class="text" id="PrincipalTitleLabel" />Head Teacher:</td>
+                                        <td><span class="text" id="PrincipalNameLabel" /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+
+
+                    <!-- Top Bar-7: Logged in user -->
+                    <li class="dropdown navbar-profile">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="User Profile">
+                            <span class="meta">
+                                <span class="avatar">
+                                    <img src="/AccountSettings/GetPersonPhoto" class="img-circle img-small" alt="User Logo">
+                                </span>
+                                <span class="text hidden-xs hidden-sm text-muted" id="UsernameLabel">Jo Young</span>
+                                <span class="caret"></span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu animated flipInX" id="UserMenuUL">
+                                        <li class="">
+                <a data-menuName="AccountSettings" href="/AccountSettings">
+                    <span class="icon"><i class="fa fa-gear"></i></span>
+                    <span class="text">Account Settings</span>
+                </a>
+            </li>
+                <li class="divider"></li>
+            <li class="">
+                <a data-menuName="Logout" href="/Auth/Logout">
+                    <span class="icon"><i class="fa fa-sign-out"></i></span>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+
+                        </ul>
+                    </li>
+
+                    <!-- Top Bar-8: User Settings -->
+                    <li class="navbar-setting pull-right">
+                        <a href="javascript:void(0);" title="Colour Schemes"><i class="fa fa-cog"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+    </div>
+</header>
+
+
+        
+    <aside id="sidebar-left" class="sidebar-circle sidebar-dark">
+
+        <!-- Menu Navigation-->
+        <ul class="sidebar-menu" runat="server" id="PagesUL">
+                        <li class="">
+                <a data-menuName="Dashboard" href="/Home/Dashboard">
+                    <span class="icon"><i class="fa fa-home"></i></span>
+                    <span class="text">Dashboard</span>
+                </a>
+            </li>
+            <li class="">
+                <a data-menuName="Timetable" href="/Timetable">
+                    <span class="icon"><i class="fa fa-clock-o"></i></span>
+                    <span class="text">My Timetable</span>
+                </a>
+            </li>
+            <li class="">
+                <a data-menuName="Behaviour" href="/Behaviour">
+                    <span class="icon"><i class="fa fa-graduation-cap"></i></span>
+                    <span class="text">Behaviour</span>
+                </a>
+            </li>
+            <li class="active">
+                <a data-menuName="Homework" href="/Homework">
+                    <span class="icon"><i class="fa fa-pencil"></i></span>
+                    <span class="text">Homework</span>
+                </a>
+            </li>
+
+        </ul>
+    </aside>
+
+
+        <!-- START PAGE CONTENT -->
+        <section id="page-content">
+
+                <div class="header-content">
+        <h2 id="PageNameLabel">
+            <i class="fa fa-pencil"></i>
+            Homework
+            <span id="subtitle"></span>
+        </h2>
+        <div class="breadcrumb-wrapper hidden-xs">
+            <span class="label">You are here:</span>
+            <ol class="breadcrumb" id="BreadcrumbDiv">Home > Homework</ol>
+        </div>
+    </div>
+
+
+            <div class="body-content animated fadeIn">
+                <style>
+    .dataTables_filter {
+        display: none;
+    }
+</style>
+<link rel="stylesheet" href="/lib/pages/css/Resources.css">
+<link rel="stylesheet" href="/lib/pages/css/HomeworkMessage.css">
+<div class="col-md-12 calendar-toolbar">
+
+    <label class="col-md-1 control-label" style="padding-top:8px">Subject</label>
+    <div class="col-md-2">
+        <select class="form-control col-md-6" id="SubjectsDropDown" onchange="OnChange()" data-val="true" data-val-required="The SubjectId field is required." name="SubjectId">
+            <option value="-1" selected="selected">All Subjects</option>
+        <option value="253">Art and Design</option>
+<option value="1320">Assembly</option>
+<option value="258">Computer Science</option>
+<option value="1322">Extended Project Qualification</option>
+<option value="291">Psychology</option>
+<option value="1325">Registration</option>
+</select>
+    </div>
+    <div class="col-md-5 " style="padding-top:8px;display:inline-flex">
+        <input type="checkbox" class="k-checkbox" id="ShowPast" onchange="OnChange()" />
+        <label class="k-checkbox-label" for="ShowPast" style="margin-left:5px;">Show Past Homework</label>
+        <input type="checkbox" class="k-checkbox " style="margin-left:10px;" id="ShowHidden" onchange="OnChange()" />
+        <label class="k-checkbox-label" for="ShowHidden" style="margin-left:5px;">Show Hidden Homework (5)</label>
+    </div>
+    <div class="col-md-2 text-right">
+        <label class="ontrol-label" style="padding-top:8px">Search</label>
+    </div>
+    <div class="col-md-2 text-right">
+        <input type="search" class="form-control input-sm" placeholder="" id="HomeWorkSearch">
+    </div>
+
+</div>
+
+
+<div class="row">
+    <div class="col-md-12 col-sm-12">
+        <div>
+            <table id="HomeworkTable" class="DataTable table table-theme">
+                <thead>
+                    <tr>
+                        <th style="max-width: 100px !important; min-width: 100px !important">Due Date</th>
+                            <th>Type</th>
+                        <th>Title</th>
+                            <th>Group</th>
+                            <th>Subject</th>
+                            <th>Teacher</th>
+                            <th>Status</th>
+                        <th>Submission Type</th>
+                        <th>View / Submit</th>
+                        <th>Hide</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>21/09/2023</td>
+                                <td>Homework</td>
+                            <td>Investigation written report</td>
+                                <td>12B/PS</td>
+                                <td>Psychology</td>
+                                <td>Mrs S Ellegaard</td>
+                                    <td>
+                                            <span>
+                                                Not Due
+                                            </span>
+                                    </td>
+                            <td>Offline submission</td>
+
+
+                                <td data-id="328" width="80px" data-status="NOTDUE" style="text-align:center" data-type="submit" class="HomeworkViewEdit">
+                                    <span>
+                                        <i class="fa fa-pencil fa-2x" title="Edit Homework">
+
+                                        </i>
+                                    </span>
+                                </td>
+                                <td data-id="328" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
+                                    <input type="checkbox" id="Hidden_328" onchange="setHidden(328, 'NOTDUE', 'N/A')" />
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>21/09/2023</td>
+                                <td>Homework</td>
+                            <td>stab binding</td>
+                                <td>12A/AD</td>
+                                <td>Art and Design</td>
+                                <td>Mr F Feijoo</td>
+                                    <td>
+                                            <span>
+                                                Not Due
+                                            </span>
+                                    </td>
+                            <td>Submit a file online</td>
+
+
+                                <td data-id="348" width="80px" data-status="NOTDUE" style="text-align:center" data-type="submit" class="HomeworkViewEdit">
+                                    <span>
+                                        <i class="fa fa-pencil fa-2x" title="Edit Homework">
+
+                                        </i>
+                                    </span>
+                                </td>
+                                <td data-id="348" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
+                                    <input type="checkbox" id="Hidden_348" onchange="setHidden(348, 'NOTDUE', 'N/A')" />
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>25/09/2023</td>
+                                <td>Homework</td>
+                            <td>Bring black and white acrylic and brushes to the lesson tomorrow if you have them</td>
+                                <td>12A/AD</td>
+                                <td>Assembly</td>
+                                <td>Mr J Dean</td>
+                                    <td>
+                                            <span>
+                                                Not Due
+                                            </span>
+                                    </td>
+                            <td>No Submission Required</td>
+
+
+                                <td data-id="470" width="80px" data-status="NOTDUE" style="text-align:center" data-type="submit" class="HomeworkViewEdit">
+                                    <span>
+                                        <i class="fa fa-pencil fa-2x" title="Edit Homework">
+
+                                        </i>
+                                    </span>
+                                </td>
+                                <td data-id="470" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
+                                    <input type="checkbox" id="Hidden_470" onchange="setHidden(470, 'NOTDUE', 'N/A')" />
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>26/09/2023</td>
+                                <td>Homework</td>
+                            <td>FSM past papers</td>
+                                <td>12C/CS</td>
+                                <td>Computer Science</td>
+                                <td>Dr W Grey</td>
+                                    <td>
+                                            <span>
+                                                Not Due
+                                            </span>
+                                    </td>
+                            <td>Submit a file online</td>
+
+
+                                <td data-id="544" width="80px" data-status="NOTDUE" style="text-align:center" data-type="submit" class="HomeworkViewEdit">
+                                    <span>
+                                        <i class="fa fa-pencil fa-2x" title="Edit Homework">
+
+                                        </i>
+                                    </span>
+                                </td>
+                                <td data-id="544" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
+                                    <input type="checkbox" id="Hidden_544" onchange="setHidden(544, 'NOTDUE', 'N/A')" />
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>26/09/2023</td>
+                                <td>Homework</td>
+                            <td>Portrait Photography</td>
+                                <td>12A/AD</td>
+                                <td>Art and Design</td>
+                                <td>Mr J Dean</td>
+                                    <td>
+                                            <span>
+                                                Not Due
+                                            </span>
+                                    </td>
+                            <td>No Submission Required</td>
+
+
+                                <td data-id="509" width="80px" data-status="NOTDUE" style="text-align:center" data-type="submit" class="HomeworkViewEdit">
+                                    <span>
+                                        <i class="fa fa-pencil fa-2x" title="Edit Homework">
+
+                                        </i>
+                                    </span>
+                                </td>
+                                <td data-id="509" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
+                                    <input type="checkbox" id="Hidden_509" onchange="setHidden(509, 'NOTDUE', 'N/A')" />
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>26/09/2023</td>
+                                <td>Homework</td>
+                            <td>Social learning theory</td>
+                                <td>12B/PS</td>
+                                <td>Psychology</td>
+                                <td>Mrs E Jenkins</td>
+                                    <td>
+                                            <span>
+                                                Not Due
+                                            </span>
+                                    </td>
+                            <td>No Submission Required</td>
+
+
+                                <td data-id="510" width="80px" data-status="NOTDUE" style="text-align:center" data-type="submit" class="HomeworkViewEdit">
+                                    <span>
+                                        <i class="fa fa-pencil fa-2x" title="Edit Homework">
+
+                                        </i>
+                                    </span>
+                                </td>
+                                <td data-id="510" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
+                                    <input type="checkbox" id="Hidden_510" onchange="setHidden(510, 'NOTDUE', 'N/A')" />
+                                </td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+            </div>
+            <br />
+
+            <footer class="footer-content">
+    <div class="pull-left">&copy; 2023 - Bromcom Computers Plc</div>
+    <div class="pull-right" id="footerPages"></div>
+    <div class="clearfix"></div>
+</footer>
+        </section>
+        <!--/ END PAGE CONTENT -->
+
+        
+<aside id="sidebar-right">
+    <div class="panel panel-tab">
+        <div class="panel-heading no-padding">
+            <div class="pull-right">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#sidebar-setting" data-toggle="tab" id="sidebarRightClose" title="Close">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="panel-body no-padding">
+            <div class="tab-content">
+                <div class="tab-pane in active" id="sidebar-setting">
+                    <div class="sidebar-setting">
+                        <ul class="sidebar-menu">
+
+                            <!-- Right Sidebar-1: Color Schemes -->
+                            <li class="sidebar-category">
+                                <span>COLOUR SCHEMES</span>
+                                <span class="pull-right"><i class="fa fa-tint"></i></span>
+                            </li>
+                            <li>
+                                <div class="sidebar-themes color-schemes">
+
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #81b71a" data-toggle="tooltip" data-placement="right" data-original-title="Default"><span class="hide">default</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #00B1E1" data-toggle="tooltip" data-placement="top" data-original-title="Blue"><span class="hide">blue</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #37BC9B" data-toggle="tooltip" data-placement="top" data-original-title="Cyan"><span class="hide">cyan</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #8CC152" data-toggle="tooltip" data-placement="top" data-original-title="Green"><span class="hide">green</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #E9573F" data-toggle="tooltip" data-placement="top" data-original-title="Red"><span class="hide">red</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #F6BB42" data-toggle="tooltip" data-placement="top" data-original-title="Yellow"><span class="hide">yellow</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #906094" data-toggle="tooltip" data-placement="top" data-original-title="Purple"><span class="hide">purple</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #D39174" data-toggle="tooltip" data-placement="top" data-original-title="Brown"><span class="hide">brown</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #9FB478" data-toggle="tooltip" data-placement="left" data-original-title="Green Army"><span class="hide">green-army</span></a>
+
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #63D3E9" data-toggle="tooltip" data-placement="right" data-original-title="Blue Sea"><span class="hide">blue-sea</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #5577B4" data-toggle="tooltip" data-placement="top" data-original-title="Blue Gray"><span class="hide">blue-gray</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #AF86B9" data-toggle="tooltip" data-placement="top" data-original-title="Purple Gray"><span class="hide">purple-gray</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #CC6788" data-toggle="tooltip" data-placement="top" data-original-title="Purple Wine"><span class="hide">purple-wine</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #F06F6F" data-toggle="tooltip" data-placement="top" data-original-title="Alizarin Crimson"><span class="hide">alizarin-crimson</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #979797" data-toggle="tooltip" data-placement="top" data-original-title="Black And White"><span class="hide">black-and-white</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #8BC4B9" data-toggle="tooltip" data-placement="top" data-original-title="Amazon"><span class="hide">amazon</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #B0B069" data-toggle="tooltip" data-placement="top" data-original-title="Amber"><span class="hide">amber</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #A9C784" data-toggle="tooltip" data-placement="left" data-original-title="Android green"><span class="hide">android-green</span></a>
+
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #B3998A" data-toggle="tooltip" data-placement="right" data-original-title="Antique brass"><span class="hide">antique-brass</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #8D8D6E" data-toggle="tooltip" data-placement="top" data-original-title="Antique Bronze"><span class="hide">antique-bronze</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #B0B69D" data-toggle="tooltip" data-placement="top" data-original-title="Artichoke"><span class="hide">artichoke</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #F19B69" data-toggle="tooltip" data-placement="top" data-original-title="Atomic Tangerine"><span class="hide">atomic-tangerine</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #98777B" data-toggle="tooltip" data-placement="top" data-original-title="Bazaar"><span class="hide">bazaar</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #C3A961" data-toggle="tooltip" data-placement="top" data-original-title="Bistre Brown"><span class="hide">bistre-brown</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #D6725E" data-toggle="tooltip" data-placement="top" data-original-title="Bittersweet"><span class="hide">bittersweet</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #7789D1" data-toggle="tooltip" data-placement="top" data-original-title="Blueberry"><span class="hide">blueberry</span></a>
+                                    <a class="theme" href="javascript:void(0);" style="background-color: #6FA362" data-toggle="tooltip" data-placement="left" data-original-title="Bud Green"><span class="hide">bud-green</span></a>
+
+                                </div>
+                            </li>
+
+                            <!-- Right Sidebar-2: Navbar Color -->
+                            <li class="sidebar-category">
+                                <span>NAVBAR COLOUR</span>
+                                <span class="pull-right"><i class="fa fa-tint"></i></span>
+                            </li>
+                            <li>
+                                <div class="sidebar-themes navbar-color">
+
+                                    <a class="theme bg-dark" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Dark"><span class="hide">dark</span></a>
+                                    <a class="theme bg-light" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Light"><span class="hide">light</span></a>
+                                    <a class="theme bg-primary" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Primary"><span class="hide">primary</span></a>
+                                    <a class="theme bg-success" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Success"><span class="hide">success</span></a>
+                                    <a class="theme bg-info" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Info"><span class="hide">info</span></a>
+                                    <a class="theme bg-warning" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Warning"><span class="hide">warning</span></a>
+                                    <a class="theme bg-danger" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Danger"><span class="hide">danger</span></a>
+
+                                </div>
+                            </li>
+
+                            <!-- Right Sidebar-3: Left Sidebar Color -->
+                            <li class="sidebar-category">
+                                <span>SIDEBAR COLOUR</span>
+                                <span class="pull-right"><i class="fa fa-tint"></i></span>
+                            </li>
+                            <li>
+                                <div class="sidebar-themes sidebar-color">
+
+                                    <a class="theme bg-dark" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Dark"><span class="hide">dark</span></a>
+                                    <a class="theme bg-light" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Light"><span class="hide">light</span></a>
+                                    <a class="theme bg-primary" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Primary"><span class="hide">primary</span></a>
+                                    <a class="theme bg-success" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Success"><span class="hide">success</span></a>
+                                    <a class="theme bg-info" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Info"><span class="hide">info</span></a>
+                                    <a class="theme bg-warning" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Warning"><span class="hide">warning</span></a>
+                                    <a class="theme bg-danger" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" data-original-title="Danger"><span class="hide">danger</span></a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+    </section>
+    <!--/ END WRAPPER -->
+    <!-- SCROLL PAGE BUTTON -->
+    <!--===================================================-->
+    <div id="back-top" class="circle  animated pulse" style="display: none;">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!--===================================================-->
+
+    <div class="modal fade" id="studentPortalModal" tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" onclick="popUpClosed();" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <div id="partial"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="resourcesModal" tabindex="-1" data-backdrop="static" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" onclick="popResourceClosed();" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <div id="partial"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id='submit' onclick="selectResourceFile()" class='btn btn-success '>Select</button>
+                    <button id='Close' onclick="popResourceClosed()" class='btn btn-danger '>Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <script src="/lib/jquery/dist/jquery.js"></script>
+        <script src="/lib/bootstrap/js/bootstrap.js"></script>
+    
+    
+    <script src="/js/core.min.js?v=N2XovTfXK4-Z0TDVhqsFo3uLqi9ZHn-JbHoK0w_7Nfw" crossorigin="anonymous"></script>
+    <script src="/js/blankon.min.js?v=VqcWxN6gwDr2NRygOGpxOk3VR_EiufIaMWv9GQP_OP8" crossorigin="anonymous"></script>
+    <script src="/lib/misc/js/datetime-moment.js?v=HxQ5Y1SR1z4bzlhML2pwPmP43vlWcdipvghezTlIQAA" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "580xg1gf55");
+    </script>
+
+    <script type="text/javascript">
+    var themecolor = "blue",
+        bodyContentMaxHeight = $(window).height() - 120;
+        $('.body-content').css('max-height', bodyContentMaxHeight.toString() + 'px');
+    </script>
+    
+
+    
+        <script type="text/javascript" src="/lib/pages/js/Homework.js?v=zRIqZ_XWjBJ1PW7au-UbDn7PeoK5zaKh7RFQyX9ktYY"></script>
+        <script type="text/javascript" src="/lib/pages/js/Resources.js"></script>
+        <script type="text/javascript" src="/lib/pages/js/quiz.js?v=H5AFfUa2IPv6_Szag58pHyyqqUKp4F6m6Xd1Y_XV5Dc"></script>
+    
+    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var errorMessage = '';
+            if (errorMessage.trim() !== "") {
+                notification.showNotification(errorMessage, 'error');
+            }
+        });
+    </script>
+
+</body>
+</html>
