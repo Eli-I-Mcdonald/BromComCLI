@@ -244,7 +244,7 @@ cfg: { // Application Insights Configuration
         <input type="checkbox" class="k-checkbox" id="ShowPast" onchange="OnChange()" />
         <label class="k-checkbox-label" for="ShowPast" style="margin-left:5px;">Show Past Homework</label>
         <input type="checkbox" class="k-checkbox " style="margin-left:10px;" id="ShowHidden" onchange="OnChange()" />
-        <label class="k-checkbox-label" for="ShowHidden" style="margin-left:5px;">Show Hidden Homework (5)</label>
+        <label class="k-checkbox-label" for="ShowHidden" style="margin-left:5px;">Show Hidden Homework (6)</label>
     </div>
     <div class="col-md-2 text-right">
         <label class="ontrol-label" style="padding-top:8px">Search</label>
@@ -275,32 +275,6 @@ cfg: { // Application Insights Configuration
                     </tr>
                 </thead>
                 <tbody>
-                        <tr>
-                            <td>21/09/2023</td>
-                                <td>Homework</td>
-                            <td>Investigation written report</td>
-                                <td>12B/PS</td>
-                                <td>Psychology</td>
-                                <td>Mrs S Ellegaard</td>
-                                    <td>
-                                            <span>
-                                                Not Due
-                                            </span>
-                                    </td>
-                            <td>Offline submission</td>
-
-
-                                <td data-id="328" width="80px" data-status="NOTDUE" style="text-align:center" data-type="submit" class="HomeworkViewEdit">
-                                    <span>
-                                        <i class="fa fa-pencil fa-2x" title="Edit Homework">
-
-                                        </i>
-                                    </span>
-                                </td>
-                                <td data-id="328" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
-                                    <input type="checkbox" id="Hidden_328" onchange="setHidden(328, 'NOTDUE', 'N/A')" />
-                                </td>
-                        </tr>
                         <tr>
                             <td>21/09/2023</td>
                                 <td>Homework</td>
@@ -429,6 +403,32 @@ cfg: { // Application Insights Configuration
                                 </td>
                                 <td data-id="510" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
                                     <input type="checkbox" id="Hidden_510" onchange="setHidden(510, 'NOTDUE', 'N/A')" />
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>28/09/2023</td>
+                                <td>Homework</td>
+                            <td>section binding</td>
+                                <td>12A/AD</td>
+                                <td>Art and Design</td>
+                                <td>Mr F Feijoo</td>
+                                    <td>
+                                            <span>
+                                                Not Due
+                                            </span>
+                                    </td>
+                            <td>Submit a file online</td>
+
+
+                                <td data-id="648" width="80px" data-status="NOTDUE" style="text-align:center" data-type="submit" class="HomeworkViewEdit">
+                                    <span>
+                                        <i class="fa fa-pencil fa-2x" title="Edit Homework">
+
+                                        </i>
+                                    </span>
+                                </td>
+                                <td data-id="648" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
+                                    <input type="checkbox" id="Hidden_648" onchange="setHidden(648, 'NOTDUE', 'N/A')" />
                                 </td>
                         </tr>
                 </tbody>
