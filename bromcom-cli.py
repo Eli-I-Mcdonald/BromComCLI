@@ -5,9 +5,7 @@ from bs4 import BeautifulSoup
 from os import system
 import sys
 
-system(
-    "curl -s 'https://www.bromcomvle.com/Homework'"
-)
+system("curl -s 'https://www.bromcomvle.com/Homework'")
 page = open("page.txt")
 soup = BeautifulSoup(page.read(), "html.parser")
 
@@ -28,6 +26,8 @@ class MainWindow(QMainWindow):
         table = QTableWidget()
         table.setRowCount(len(homework))
         table.setColumnCount(len(homework[0]))
+        table.setColumnWidth(1, 300)
+        table.setColumnWidth(6, 200)
 
         for i, row in enumerate(homework):
             for j, val in enumerate(row):
@@ -36,7 +36,7 @@ class MainWindow(QMainWindow):
 
         self.setWindowIcon(QIcon("/opt/bromcom/favicon.jpg"))
         self.setWindowTitle("My Homework")
-        self.resize(730, 300)
+        self.resize(1021, 500)
         self.setCentralWidget(table)
 
 
