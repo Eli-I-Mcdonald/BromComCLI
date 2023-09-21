@@ -17,5 +17,6 @@ if [ "${input}" = "y" ] || [ "${input}" = "Y" ] || [ "${input}" = "" ]
   echo "${executable_name2} installed at ${install_directory}"
   mkdir ${data_directory} 2>/dev/null
   echo "made directory ${data_directory}"
+  install favicon.jpg ${data_directory}
   chown -R user /opt/bromcom
 fi

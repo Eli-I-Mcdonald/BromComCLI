@@ -1,5 +1,3 @@
 cd /opt/bromcom
-/usr/local/bin/bromcom-cli > homework.txt
-cat homework.txt
-shred -xfu page.txt
+/usr/local/bin/bromcom-cli
 cd - >/dev/null

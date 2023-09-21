@@ -244,7 +244,7 @@ cfg: { // Application Insights Configuration
         <input type="checkbox" class="k-checkbox" id="ShowPast" onchange="OnChange()" />
         <label class="k-checkbox-label" for="ShowPast" style="margin-left:5px;">Show Past Homework</label>
         <input type="checkbox" class="k-checkbox " style="margin-left:10px;" id="ShowHidden" onchange="OnChange()" />
-        <label class="k-checkbox-label" for="ShowHidden" style="margin-left:5px;">Show Hidden Homework (6)</label>
+        <label class="k-checkbox-label" for="ShowHidden" style="margin-left:5px;">Show Hidden Homework (7)</label>
     </div>
     <div class="col-md-2 text-right">
         <label class="ontrol-label" style="padding-top:8px">Search</label>
@@ -299,32 +299,6 @@ cfg: { // Application Insights Configuration
                                 </td>
                                 <td data-id="348" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
                                     <input type="checkbox" id="Hidden_348" onchange="setHidden(348, 'NOTDUE', 'N/A')" />
-                                </td>
-                        </tr>
-                        <tr>
-                            <td>25/09/2023</td>
-                                <td>Homework</td>
-                            <td>Bring black and white acrylic and brushes to the lesson tomorrow if you have them</td>
-                                <td>12A/AD</td>
-                                <td>Assembly</td>
-                                <td>Mr J Dean</td>
-                                    <td>
-                                            <span>
-                                                Not Due
-                                            </span>
-                                    </td>
-                            <td>No Submission Required</td>
-
-
-                                <td data-id="470" width="80px" data-status="NOTDUE" style="text-align:center" data-type="submit" class="HomeworkViewEdit">
-                                    <span>
-                                        <i class="fa fa-pencil fa-2x" title="Edit Homework">
-
-                                        </i>
-                                    </span>
-                                </td>
-                                <td data-id="470" width="50px" data-status="NOTDUE" style="text-align:center" data-type="submit">
-                                    <input type="checkbox" id="Hidden_470" onchange="setHidden(470, 'NOTDUE', 'N/A')" />
                                 </td>
                         </tr>
                         <tr>
